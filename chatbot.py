@@ -29,8 +29,12 @@ def find_best_match(user_question: str, questions: list[str]) -> str | None:
     Mencari pertanyaan yang paling cocok dari daftar pertanyaan yang ada.
     Mengembalikan pertanyaan yang cocok atau None jika tidak ada.
     """
-    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.6)
-    return matches[0] if matches else None
+    matches: list = get_close_matches(user_question.lower(), [q.lower() for q in questions], n=1, cutoff=0.6)
+    if matches:
+        for q in questions:
+            if q.lower() == matches[0]:
+                return q
+    return None
 
 def get_answer_for_question(question: str, knowledge_base: dict) -> str | None:
     """

@@ -1,3 +1,40 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Halo",
+      "answer": "Halo! Ada yang bisa saya bantu?"
+    },
+    {
+      "question": "Apa kabar?",
+      "answer": "Saya baik-baik saja, terima kasih! Ada yang bisa saya bantu?"
+    },
+    {
+      "question": "Siapa nama kamu?",
+      "answer": "Nama saya Bot."
+    },
+    {
+      "question": "Apa yang bisa kamu lakukan?",
+      "answer": "Saya bisa menjawab pertanyaan kamu berdasarkan basis pengetahuan yang saya miliki."
+    },
+    {
+      "question": "Siapa yang membuat kamu?",
+      "answer": "Saya dibuat oleh seorang programmer."
+    },
+    {
+      "question": "Terima kasih",
+      "answer": "Sama-sama!"
+    },
+    {
+      "question": "Selamat pagi",
+      "answer": "Selamat pagi! Ada yang bisa saya bantu?"
+    },
+    {
+      "question": "Selamat siang",
+      "answer": "Selamat siang! Ada yang bisa saya bantu?"
+    },
+    {
+      "question": "Selamat malam",
+      "answer": "Selamat malam! Ada yang bisa saya bantu?"
+    }
+  ]
 }
