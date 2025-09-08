@@ -8,7 +8,7 @@ Here is a list of the scripts in this repository:
 
 - `chatbot.py`: A simple chatbot.
 - `knowledge_base.json`: Knowledge base for the chatbot.
-- `todo_app.py`: A simple to-do list application.
+- `diary.py`: A simple diary application.
 
 ## Usage
 
